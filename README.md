@@ -1,4 +1,5 @@
 <p align="center">
+<a href="http://syntapse.co.uk/" target="blank"><img src="syntapse_logo.png" width="120" alt="Nest Logo" /></a>
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
 

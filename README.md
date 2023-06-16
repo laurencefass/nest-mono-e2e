@@ -4,7 +4,13 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript nest monorepo with preconfigured app, shared lib and addition of package.json and jest configuration for apps and libs. Note: use nest generate to add apps and libs to ensure correct confifiguration of nest-cli.json 
+[Nest](https://github.com/nestjs/nest) framework TypeScript nest monorepo with preconfigured app, some shared libs and addition of package.json and jest configuration for apps and libs. Note: use nest generate to add apps and libs to ensure correct confifiguration of nest-cli.json 
+
+Currently three libs all have e2e tests in /test to demonstrate how to create test modules and inject services.
+
+1. /lib/mylib demonstrating injecting values by token into a service
+2. /lib/myconfig demonstrates injecting the @nest/config installed in root /node_modules into a service and then verifying set/get functionality.
+3. /lib/mypackage is identical to /lib/myconfig with addition of its own package.json and nested @nest/config /node_modules  
 
 ## Nest links
 

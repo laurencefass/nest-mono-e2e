@@ -12,6 +12,18 @@
     ],
     "@app/mylib/*": [
       "../../../libs/mylib/src/*"
+    ],
+    "@app/myconfig": [
+      "../../../libs/myconfig/src"
+    ],
+    "@app/myconfig/*": [
+      "../../../libs/myconfig/src/*"
+    ],
+    "@app/mypackage": [
+      "../../../libs/mypackage/src"
+    ],
+    "@app/mypackage/*": [
+      "../../../libs/mypackage/src/*"
     ]
   }
 }

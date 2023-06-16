@@ -27,6 +27,24 @@
       "compilerOptions": {
         "tsConfigPath": "apps/myapp/tsconfig.app.json"
       }
+    },
+    "myconfig": {
+      "type": "library",
+      "root": "libs/myconfig",
+      "entryFile": "index",
+      "sourceRoot": "libs/myconfig/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/myconfig/tsconfig.lib.json"
+      }
+    },
+    "mypackage": {
+      "type": "library",
+      "root": "libs/mypackage",
+      "entryFile": "index",
+      "sourceRoot": "libs/mypackage/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/mypackage/tsconfig.lib.json"
+      }
     }
   }
 }
